@@ -4,10 +4,6 @@ import copy
 from ETL_extract import Extract
 
 
-
-
-
-
 class Transformation:
 
     def __init__(self, data_source, dataset):
