@@ -1,7 +1,7 @@
 {
 	"data_sources": {
 		"api": {
-            "random_user": "https://randomuser.me/api/?results=10"
+            "random_user": "https://randomuser.me/api/?results=100"
 		}
 	}
 }
