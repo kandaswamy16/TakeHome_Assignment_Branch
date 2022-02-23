@@ -115,10 +115,6 @@ class Transformation:
                         if k == item:
                             result[v] = result.pop(item)
                 result = self.convert_dict_val_type(result)
-                for v in result.values():
-                    print(v, type(v))
-                types1 = set(type(v) for v in result.values())
-                print(types1)
                 if csvfile.tell() == 0:
                     header = result.keys()
                     csv_writer.writerow(header)
